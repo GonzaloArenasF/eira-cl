@@ -5,7 +5,7 @@
 :root {
   --eira-color1: rgba(0, 182, 146, 1); /* #00b692*/
   --eira-color2: rgba(99, 47, 132, 1); /* #632f84; */
-  --eira-color2-3: rgba(99, 47, 132, 0.2);
+  --eira-color2-3: rgba(99, 47, 132, 0.3);
   --eira-color3: #ffffff;
   --eira-color4: #444444;
 }

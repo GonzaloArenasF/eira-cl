@@ -34,10 +34,8 @@ body {
   color: var(--eira-color4);
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  height: 100vh;
   letter-spacing: 2px;
   line-height: 1.3rem;
-  width: 100vw;
 }
 
 a {
@@ -46,7 +44,7 @@ a {
 }
 
 .teaser-logo {
-  margin-top: calc(50vh - 200px);
+  margin-top: calc(50vh - 250px);
   text-align: center;
 }
 
