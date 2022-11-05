@@ -1,22 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,500;1,600;1,700;1,800;1,900;1,1000&family=Quintessential&display=swap');
+@import url(./css/vars_and_imports.css);
+@import url(./css/reset.css);
+
+
+@-webkit-keyframes eira-gradient {
+  0%{background-position:0% 15%}
+  50%{background-position:100% 86%}
+  100%{background-position:0% 15%}
+}
+@-moz-keyframes eira-gradient {
+  0%{background-position:0% 15%}
+  50%{background-position:100% 86%}
+  100%{background-position:0% 15%}
+}
+@-o-keyframes eira-gradient {
+  0%{background-position:0% 15%}
+  50%{background-position:100% 86%}
+  100%{background-position:0% 15%}
+}
+@keyframes eira-gradient {
+  0%{background-position:0% 15%}
+  50%{background-position:100% 86%}
+  100%{background-position:0% 15%}
+}
 
 body {
+  -webkit-animation: eira-gradient 40s ease infinite;
+  -moz-animation: eira-gradient 40s ease infinite;
+  -o-animation: eira-gradient 40s ease infinite;
+  animation: eira-gradient 40s ease infinite;
   background: #ffffff;
-  background: linear-gradient(149deg, rgba(0,182,146,0.2) 0%, rgba(255,255,255,1) 40%, rgba(0,182,146,0.2) 90%); 
-  font-family: 'Mulish', sans-serif;
+  background: linear-gradient(136deg, var(--eira-color2-3), var(--eira-color3), var(--eira-color2-3));
+  background-size: 600vh 600vw;
+  color: var(--eira-color4);
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   height: 100vh;
   letter-spacing: 2px;
+  line-height: 1.3rem;
+  width: 100vw;
 }
 
 a {
+  color: var(--eira-color1);
   text-decoration: none;
 }
 
 .teaser-logo {
-  margin-top: 30vh;
+  margin-top: calc(50vh - 200px);
   text-align: center;
-  width: 100%;
 }
 
 .teaser-logo > img {
@@ -24,30 +55,33 @@ a {
 }
 
 .teaser-logo > .logo {
-  color: #00b692;
-  font-family: 'Quintessential', cursive;
-  font-size: 4rem;
-  letter-spacing: normal;
-  margin: 0 auto;
-  margin-top: -30px;
-  padding: 0;
-  text-transform: capitalize;
+  color: var(--eira-color1);
+  font-family: 'Linden Hill', serif;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .teaser-logo > .logo > small {
   display: block;
-  font-size: .8rem;
-  font-family: 'Mulish', sans-serif;
+  font-size: 1.18rem;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  letter-spacing: 2px;
-  margin-top: -10px;
-  text-transform: uppercase;
+  line-height: 3rem;
+  text-transform: initial;
 }
 
-.teaser-logo p {
+footer {
   margin-top: 3rem;
+  text-align: center;
 }
 
-.teaser-logo a {
-  margin: 0 3px;
+footer > svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+footer > a {
+  position: relative;
+  top: -0.7rem;
 }
