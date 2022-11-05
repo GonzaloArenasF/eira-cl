@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,500;1,600;1,700;1,800;1,900;1,1000&family=Quintessential&display=swap');
+
+body {
+  background: #ffffff;
+  background: linear-gradient(149deg, rgba(0,182,146,0.2) 0%, rgba(255,255,255,1) 40%, rgba(0,182,146,0.2) 90%); 
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  height: 100vh;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.teaser-logo {
+  margin-top: 30vh;
+  text-align: center;
+  width: 100%;
+}
+
+.teaser-logo > img {
+  width: 180px;
+}
+
+.teaser-logo > .logo {
+  color: #00b692;
+  font-family: 'Quintessential', cursive;
+  font-size: 4rem;
+  letter-spacing: normal;
+  margin: 0 auto;
+  margin-top: -30px;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.teaser-logo > .logo > small {
+  display: block;
+  font-size: .8rem;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+
+.teaser-logo p {
+  margin-top: 3rem;
+}
+
+.teaser-logo a {
+  margin: 0 3px;
+}

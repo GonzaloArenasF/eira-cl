@@ -1,0 +1,20 @@
+{
+  "name": "eira-cl",
+  "version": "1.0.0",
+  "description": "eria venta de velas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "firebase deploy --only hosting:eira"
+  },
+  "keywords": [
+    "eira",
+    "velas",
+    "bombones"
+  ],
+  "author": "Gonzalo A. Arenas Flores",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.10.0"
+  }
+}
